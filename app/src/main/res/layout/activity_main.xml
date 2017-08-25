@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.lifecycle.activity.lifecycleofactivity.FirstActivity">
+
+    <TextView
+        android:id="@+id/oncrete_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="On Create"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/onstart_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="On Start"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/onrestart_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="On Restart"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/onresume_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="On Resume"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        />
+
+
+    <TextView
+        android:id="@+id/onpause_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="On Pause"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/onstop_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="On Stop"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/ondestroy_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="On Destroy"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
+
+
+</LinearLayout>
